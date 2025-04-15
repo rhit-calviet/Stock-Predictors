@@ -1,0 +1,13 @@
+# requirements.txt
+# Lists the Python packages required for the project.
+# Install using: pip install -r requirements.txt
+
+torch>=1.9.0      # PyTorch deep learning framework
+transformers>=4.0.0 # Hugging Face library for NLP models (FinBERT)
+yfinance>=0.1.63  # For fetching stock market data
+pandas>=1.0.0     # Data manipulation and analysis
+numpy>=1.19.0     # Numerical operations
+scikit-learn>=0.24.0 # For data scaling (MinMaxScaler) and splitting
+ta>=0.8.0         # Technical Analysis library for stock indicators
+accelerate>=0.5.0 # Often required by recent versions of transformers
+
